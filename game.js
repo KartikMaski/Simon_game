@@ -34,6 +34,7 @@ function checkAnswer(currentLevel) {
           nextSequence();
         }, 1000);
       }
+      
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
